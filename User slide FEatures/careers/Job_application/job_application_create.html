@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job application</title>
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css" rel="stylesheet" />
+    <!-- mdb -->
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+
+    <!-- phone -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.min.css">
+    <!-- clone -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- style sheet -->
+    <link rel="stylesheet" href="/style.css">
+
+</head>
+
+<body>
+
+
+    <!-- nav bar -->
+
+    <div class="container-fluid ">
+        <div class="row nav-top ">
+            <div class=" container col-lg-2 text-center navtop" style="background-color: white;">
+                <img class="" style="width: 180px;height: 140px;" src="./img/NEW-LOGO-FINAL-1 (1).png" alt="">
+            </div>
+            <div class=" container-fluid  col-lg-10 text-white  navtop">
+                <section style="background-color: #111c3a; "
+                    class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+                    <!-- Left -->
+                    <div class=" d-none d-lg-block ">
+                        <span style="padding-left: 10px;" class=""> <i style="color:  rgb(176, 134, 55);"
+                                class="fa-regular fa-address-book"></i> No. 5/333A, OMR Road, Thuraipakkam, Chennai,
+                            Tamil Nadu, India-600097 </span>
+                        <span style="padding-left: 10px;" class=""> <i style="color:  rgb(176, 134, 55);"
+                                class="fa-solid fa-phone-volume"></i> +91 89009 10738</span>
+                        <span style="padding-left: 10px;" class=""> <i style="color:  rgb(176, 134, 55);"
+                                class="fa-regular fa-envelope"></i> info@tisecon.com</span>
+                    </div>
+                    <!-- Right -->
+                    <div>
+                        <a style="text-decoration: none;" href="" class=" mx-2   text-reset">
+                            <i class="icons-1  fab fa-facebook-f "></i>
+                        </a>
+                        <a style="text-decoration: none;" href="" class=" mx-2 text-reset">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a style="text-decoration: none;" href="" class="  mx-2 text-reset">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                        <a style="text-decoration: none;" href="" class=" mx-2 text-reset">
+                            <i class="fa-brands fa-youtube"></i>
+                        </a>
+                        <a style="text-decoration: none;" href="" class=" mx-2 text-reset">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </a>
+                    </div>
+                </section>
+                <nav class="navbar navbar-expand-lg  nav-bg">
+                    <div class="container-fluid">
+                        <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
+                            data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+
+                            <i class="fas fa-bars"></i>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0  ">
+                                <li class="nav-item">
+                                    <a class="nav-link  mx-2 " href="#">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link  mx-2 " href="#">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link   mx-1" href="#">Sectors</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle mx-3" href="#" id="navbarDropdownMenuLink"
+                                        role="button" data-mdb-toggle="dropdown" aria-expanded="false">
+                                        Services
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                        <li>
+                                            <a class="dropdown-item" href="#">Action</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="#">Another action</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="#">Something else here</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link  mx-2 " href="#">Expertise</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link   mx-2" href="#">Projects</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link   mx-2" href="#">Careers</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link   mx-1" href="#">Contact Us</a>
+                                </li>
+                            </ul>
+                            <div class="d-flex align-items-end btn-nav">
+                                <button type="button" class="btn btn-primary btn-nav ">
+                                    Feedback
+                                </button>
+                            </div>
+                        </div>
+                </nav>
+            </div>
+
+        </div>
+    </div>
+    <!-- main -->
+    <div>
+        <div class="container">
+            <!-- percentage -->
+            <div class="container   mt-3 mb-3">
+                <div class="progress-bar" role="progressbar" style="width: 30%; background-color: #111;color: white; "
+                    aria-valuenow="90" aria-valuemin="0" aria-valuemax="30%">30%</div>
+            </div>
+        </div>
+        <h2 class="text-center mb-3">EMPLOYMENT / JOB APPLICATION</h2>
+
+        <!-- main -->
+        <div class="container-fuild">
+            <div class="container">
+                <div class="container ">
+                    <form method="POST" enctype="multipart/form-data">
+
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <!-- sector -->
+                                <p>Sectors <span class="red">*</span></p>
+                                <select class="form-select bg" name="sector" required>
+                                    <option selected>Open this select menu</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                </select>
+                            </div>
+                            <!-- Position -->
+                            <div class="col-lg-6">
+                                <p>Position Applied For<span class="red">*</span></p>
+                                <select class="form-select bg" name="postion" aria-label="Default select example"
+                                    required>
+                                    <option selected>Open this select menu</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                </select>
+                            </div>
+                        </div>
+                        <!-- heading -->
+                        <h2 style="display: flex;justify-content: flex-start;" class="pt-4 pb-4">PERSONAL INFORMATION
+                        </h2>
+                        <p style="font-weight: bold;">
+                            Note: Accepted Formats For Image: jpg, jpeg, gif, png, bmp <br>
+                            Size Limit: 50KB
+                        </p>
+                        <!-- firstname -->
+                        <div class="row g-3">
+                            <div class="col-md-4">
+                                <label class="form-label">First name <span
+                                        class="red">*</span></label>
+                                <input type="text" class="form-control bg" name="firstname" placeholder="first name"
+                                    id="firstName" required>
+                            </div>
+                            <!-- lastname -->
+                            <div class="col-md-4">
+                                <label  class="form-label">Last name <span
+                                        class="red">*</span></label>
+                                <input type="text" class="form-control bg" name="lastname" placeholder="last name"
+                                    id="lastName" required>
+                            </div>
+                            <!-- upload -->
+                            <div class="col-md-4">
+                                <label for="image" class="form-label">Upload the Latest Passport Size Photo : <span
+                                        class="red">*</span></label>
+                                <div class="input-group">
+                                    <input type="file" class="form-control" id="image" name="image" accept="image/*"
+                                        required>
+                                </div>
+                                <div class="form-group">
+                                    <img id="imagePreview" src="#" alt="Image Preview"
+                                        style="max-width:150px; display: none;">
+                                </div>
+
+                            </div>
+                            <!-- dateofbirth -->
+                            <div class="col-md-4">
+                                <label for="dob">Enter your date of birth <span class="red">*</span></label><br>
+                                <input class="form-control " type="date" name="dob" id="dob" oninput="calculateAge()"
+                                    required>
+                            </div>
+                            <!-- age -->
+                            <div class="col-md-4">
+                                <label for="ageOutput">Your age is</label><br>
+                                <input class="form-control bg " type="text" id="ageOutput" name="age" readonly>
+                            </div>
+                            <!-- space -->
+                            <div class="col-md-4">
+                            </div>
+                            <!-- country -->
+                            <div class="col-md-4">
+                                <label  class="form-label">Country <span
+                                        class="red">*</span></label>
+                                <select class="form-select"  name="city" required>
+                                    <option selected disabled value="">Choose...</option>
+                                    <option>...</option>
+                                </select>
+                            </div>
+                            <div class="col-md-4">
+                                <label  class="form-label">State <span
+                                        class="red">*</span></label>
+                                <select class="form-select"  name="city" required>
+                                    <option selected disabled value="">Choose...</option>
+                                    <option>...</option>
+                                </select>
+                            </div>
+
+                            <!-- city -->
+                            <div class="col-md-4">
+                                <label  class="form-label">City <span
+                                        class="red">*</span></label>
+                                <select class="form-select"  name="city" required>
+                                    <option selected disabled value="">Choose...</option>
+                                    <option>...</option>
+                                </select>
+                            </div>
+                            <!--address -->
+                            <div class="col-md-4">
+                                <label  class="form-label">Address <span
+                                        class="red">*</span></label>
+                                <input type="text" name="address" class="form-control bg" placeholder="Address"
+                                     name="address" required>
+                            </div>
+                            <!-- postal code -->
+                            <div class="col-md-4">
+                                <label  class="form-label">Postal Code
+                                    <span class="red">*</span></label>
+                                <input type="text" class="form-control bg" placeholder="postal code"
+                                     name="postalcode" required>
+                            </div>
+                            <!-- phone -->
+                            <div class="col-md-4">
+                                <label  class="form-label">Phone/Mobile <span
+                                        class="red">*</span></label><br>
+                                <input type="tel" class="form-control bg" name="phone" required>
+                            </div>
+                            <!-- Alternative Phone -->
+                            <div class="col-md-4">
+                                <label  class="form-label">Alternative Phone/Mobile </label>
+                                <br>
+                                <input type="tel" class="form-control bg" name="alternativephone" required>
+                            </div>
+                            <!-- email -->
+                            <div class="col-md-4">
+                                <label  class="form-label">Email <span
+                                        class="red">*</span></label>
+                                <input type="email" class="form-control bg" placeholder="Email-Id"
+                                     name="email" required>
+                            </div>
+                            <!-- fblink -->
+                            <div class="col-md-4">
+                                <label  class="form-label">FB Profile Link <span
+                                        class="red">*</span></label>
+                                <input type="text" name="fblink" class="form-control bg" placeholder="FB Profile Link"
+                                     required>
+                            </div>
+                            <!-- instalink -->
+                            <div class="col-md-4">
+                                <label  class="form-label">Instagram Profile Link <span
+                                        class="red">*</span></label>
+                                <input type="text" class="form-control bg" placeholder="Instagram Profile Link"
+                                     name="instalink" required>
+                            </div>
+                            <!-- linked link -->
+                            <div class="col-md-4">
+                                <label  class="form-label">LinkedIn Profile Link
+                                    <span class="red">*</span>
+                                </label>
+                                <input type="text" name="linkedlink" class="form-control bg" placeholder="LinkedIn Profile Link
+                            "  name="linkedlink" required>
+                            </div>
+                            <!-- {{-- Permanantaddress yes OR no --}} -->
+                            <div class="col-md-4">
+                                <label>Does Your Permanant Address is Different <span class="red">*</span>
+                                    <br>
+                                    <input type="radio" name="permanantaddress" value="yes" id="yesRadio1"> Yes
+                                </label> <br>
+                                <label>
+                                    <input type="radio" name="permanantaddress" value="no" id="noRadio1"> No
+                                </label>
+                            </div>
+                            <div id="formContainer1" class="hidden">
+                                <!-- Permanantcity -->
+                                <div class="row  g-3">
+                                    <!-- country -->
+                                    <div class="col-md-4">
+                                        <label  class="form-label">Country <span
+                                                class="red">*</span></label>
+                                        <select class="form-select"  name="city" required>
+                                            <option selected disabled value="">Choose...</option>
+                                            <option>...</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <label  class="form-label">State <span
+                                                class="red">*</span></label>
+                                        <select class="form-select"  name="city" required>
+                                            <option selected disabled value="">Choose...</option>
+                                            <option>...</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="col-md-4">
+                                        <label  class="form-label">City <span
+                                                class="red">*</span></label>
+                                        <input type="text" name="Permanantcity" class="form-control bg"
+                                            placeholder="City"  required>
+                                    </div>
+
+                                    <!-- Permanantpostalcode -->
+                                    <div class="col-md-4">
+                                        <label  class="form-label">Postal Code
+                                            <span class="red">*</span></label>
+                                        <input type="text" class="form-control bg" name="Permanantpostalcode"
+                                            placeholder="City"  required>
+                                    </div>
+                                    <!-- Permanant phone -->
+                                    <div class="col-md-4">
+                                        <label  class="form-label">Phone/Mobile <span
+                                                class="red">*</span></label>
+                                        <br>
+                                        <input type="tel" class="form-control bg" name="permanantphone" required>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <!-- fathername -->
+                        <div class="row g-3">
+                            <div class="col-md-3">
+                                <label  class="form-label">Father’s Name <span
+                                        class="red">*</span></label>
+                                <div class="input-group">
+                                    <input type="text" name="fathername" class="form-control bg"
+                                        placeholder="father's name" required>
+                                </div>
+                            </div>
+                            <!-- fatherdateofbirth -->
+                            <div class="col-md-3">
+                                <label  class="form-label">Date Of Birth <span
+                                        class="red">*</span></label>
+                                <input type="date" class="form-control" 
+                                    name="fatherdateofbirth" required>
+                            </div>
+                            <!-- fatherphone -->
+                            <div class="col-md-3">
+                                <label  class="form-label">Phone/Mobile <span
+                                        class="red">*</span>
+                                </label>
+                                <br>
+                                <input type="tel" class="form-control bg" name="fatherphone" required>
+                            </div>
+                            <!-- fatherupload -->
+                            <div class="col-md-3">
+                                <label  class="form-label">upload <span
+                                        class="red">*</span></label>
+                                <div class="input-group">
+                                    <input type="file" class="form-control" id="fatherimage" name="fatherimage"
+                                        accept="image/*" required>
+                                </div>
+                                <!-- images  -->
+                                <div class="form-group">
+                                    <img id="fatherimagePreview" src="#" alt="Image Preview"
+                                        style="max-width: 150px; display: none;">
+                                </div>
+                            </div>
+                            <!-- mothername -->
+                            <div class="col-md-3">
+                                <label  class="form-label">Mother's Name <span
+                                        class="red">*</span></label>
+                                <div class="input-group">
+                                    <input type="text" class="form-control bg"
+                                        placeholder="mother's name" name="mothername" required>
+                                </div>
+                            </div>
+                            <!-- mother dob -->
+                            <div class="col-md-3">
+                                <label  class="form-label">Date Of Birth <span
+                                        class="red">*</span></label>
+                                <input type="date" class="form-control" name="motherdateofbirth"
+                                     required>
+                            </div>
+                            <!-- motherphone -->
+                            <div class="col-md-3">
+                                <label  class="form-label">Phone/Mobile <span
+                                        class="red">*</span>
+                                </label>
+                                <input type="tel" class="form-control bg" name="motherphone" required>
+                            </div>
+                            <!-- mother upload -->
+                            <div class="col-md-3">
+                                <label  class="form-label">upload <span
+                                        class="red">*</span></label>
+                                <div class="input-group">
+                                    <input type="file" class="form-control" name="motherimage" accept="image/*"
+                                        id="motherimage" required>
+                                </div>`
+                                <!-- images  -->
+                                <div class="form-group">
+                                    <img id="motherimagePreview" src="#" alt="Image Preview"
+                                        style="max-width: 150px; display: none;">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- marital status -->
+                        <div class="div">
+                            <p style="font-weight: bold;">Marital Status <span class="red">*</span></p>
+                            <input type="radio" name="maritalStatus" value="married" onclick="showInputs()" required>
+                            Married
+                            <br>
+                            <input type="radio" name="maritalStatus" value="single" onclick="hideInputs()" required>
+                            Single
+                            <div id="marriedInputs" style="display: none; ">
+                                <div class="row">
+                                    <!-- spousename -->
+                                    <div class="col-md-4">
+                                        <label  class="form-label pt-2">Spouse Name
+                                            <span class="red">*</span></label>
+                                        <input type="text" class="form-control bg"
+                                            name="spousename" placeholder="Spouse Name" required>
+                                    </div>
+                                    <!-- spousedob -->
+                                    <div class="col-md-4">
+                                        <label  class="form-label pt-2">Date of
+                                            Birth <span class="red">*</span></label>
+                                        <input type="date" class="form-control bg" name="spousedateofbirth"
+                                            name="spousedateofbirth" placeholder=""
+                                            required>
+                                    </div>
+                                    <!-- spouseemail -->
+                                    <div class="col-md-4">
+                                        <label  class="form-label pt-2">Email <span
+                                                class="red">*</span></label>
+                                        <input type="email" class="form-control bg" name="spouseemail"
+                                            placeholder="Email id" required>
+                                    </div>
+                                    <!-- spousephone -->
+                                    <div class="col-md-4 mt-3">
+                                        <label  class="form-label pt-2">Phone/Mobile
+                                            <span class="red">*</span></label>
+                                        <input type="tel" class="form-control bg" name="spousephone pt-2" required>
+                                    </div>
+                                    <!-- spouseupload -->
+                                    <div class="col-md-4 mt-3">
+                                        <label  class="form-label pt-2">Upload Latest
+                                            Passport Size Photo
+                                            <span class="red">*</span>
+                                        </label>
+                                        <input type="file" class="form-control " name="spouseimage" accept="image/*"
+                                            id="spouseimage" placeholder="" required>
+                                    </div>
+                                    <div class="form-group ">
+                                        <img id="spouseimagePreview" src="#" alt="Image Preview"
+                                            style="max-width: 150px; display: none;">
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- single -->
+                            <div id="singleInputs" style="display: none;">
+                            </div>
+                        </div>
+                        <!-- Siblings -->
+                        <div class="mt-3">
+                            <p style="font-weight: bold;">Siblings <span class="red">*</span></p>
+                            <label>
+                                <input type="radio" name="Siblings" value="yes" id="yesRadio2" required> Yes
+                            </label> <br>
+                            <label>
+                                <input type="radio" name="Siblings" value="no" id="noRadio2" required> No
+                            </label>
+                            <!-- Siblings -->
+                            <div id="form-container">
+                                <div class="form-fields">
+                                    <!-- Initial set of form fields -->
+                                    <div id="formContainer2" class="hidden">
+                                        <!-- Siblings name -->
+                                        <div class="row g-3">
+                                            <div class="col-md-4">
+                                                <label  class="form-label pt-2">Siblings
+                                                    name<span class="red">*</span></label>
+                                                <input type="text" class="form-control bg"
+                                                    placeholder="Siblings name"
+                                                    name="siblingsname" required>
+                                            </div>
+                                            <!--Siblings  Date of Birth-->
+                                            <div class="col-md-4">
+                                                <label  class="form-label pt-2">Date of
+                                                    Birth
+                                                    <span class="red">*</span></label>
+                                                <input type="date" name="siblingsdateofbirth" class="form-control "
+                                                    placeholder=""  required>
+                                            </div>
+                                            <!-- siblings  email -->
+                                            <div class="col-md-4">
+                                                <label  class="form-label pt-2">Email
+                                                    <span class="red">*</span></label>
+                                                <input type="email" class="form-control bg" placeholder="Email-Id"
+                                                     name="siblingsemail" required>
+                                            </div>
+                                            <!--siblings  phone -->
+                                            <div class="col-md-4">
+                                                <label 
+                                                    class="form-label pt-2">Phone/Mobile <span
+                                                        class="red">*</span></label><br>
+                                                <input type="tel" class="form-control bg" name="siblingsphone" required>
+                                            </div>
+                                            <!--siblings  Upload the Latest Passport Size Photo -->
+                                            <div class="col-md-4">
+                                                <label  class="form-label pt-2">Upload
+                                                    the Latest Passport Size Photo <span class="red">*</span></label>
+                                                <input type="file" class="form-control" id="siblingsimage"
+                                                    name="siblingsimage" accept="image/*" required>
+                                                <!-- images  -->
+                                                <div class="form-group  ">
+                                                    <img id="siblingsimagePreview" src="#" alt="Image Preview"
+                                                        style="max-width: 150px; display: none;">
+                                                </div>
+                                            </div>
+                                            <div style="display: flex; justify-content: flex-start ;" class="  btn-right ">
+                                                <button class="remove-field-button  m-1  btn-right"
+                                                    style="display: none;">-</button>
+                                                <!-- Add Remove button -->
+                                                <button class="btn-right" id="add-field-button">+</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                            <div style="display: flex;justify-content: end; align-items: center; " class="  ">
+                                <!-- button  -->
+                                <a style="font-weight: bold;" class="btn btn-secondary m-1"
+                                    href="../instruction/instruction.html">Previous</a>
+                                <a style="font-weight: bold;" class="btn btn-primary m-1" href="../Card/card_create.html"> Save And Next</a>
+                            </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+
+    <footer class="bg-dark  text-white mt-4">
+        <div class="container-fluid  p-4">
+            <!-- link -->
+            <section class="container">
+                <div class="row border-bottom ">
+                    <div class="col-lg-4 col-md-6 mt-5  ">
+                        <h1 class="">About TISE</h1>
+                        <p>With over 8 years of experience in the industry, <br> we provide top-notch expertise and
+                            innovative <br> solutions for your engineering needs</p>
+                        <!-- icons -->
+                        <div class="">
+                            <a style="text-decoration: none; padding-right: 10px;" href="" class="   text-reset">
+                                <i class="icons-1  fab fa-facebook-f g-5 "></i>
+                            </a>
+                            <a style="text-decoration: none; padding-right: 10px;" href="" class=" text-reset ">
+                                <i class="fa-brands fa-instagram  "></i>
+                            </a>
+                            <a style="text-decoration: none;padding-right: 10px;" href="" class=" text-reset">
+                                <i class="fa-brands fa-twitter"></i>
+                            </a>
+                            <a style="text-decoration: none;padding-right: 10px;" href="" class=" text-reset">
+                                <i class="fa-brands fa-youtube"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Quick Links  -->
+                    <div class="col-lg-4 col-md-6 mt-5 mb-5">
+                        <h4 class=""> Quick Links </h4>
+                        <ul class="list-unstyled mb-4 ">
+                            <li class="pb-1">
+                                <a href="#!" class="text-white">Terms and Conditions</a>
+                            </li>
+                            <li class="pb-1">
+                                <a href="#!" class="text-white">Privacy Policy</a>
+                            </li>
+                            <li class="pb-1">
+                                <a href="#!" class="text-white">Cancellation & Refund Policy – Training</a>
+                            </li>
+                            <li class="pb-1">
+                                <a href="#!" class="text-white">Cancellation & Refund Policy – Job</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- Useful Links -->
+                    <div class="col-lg-2 col-md-6 mt-5 mb-5">
+                        <h4 class=""> Useful Links </h4>
+                        <ul class="list-unstyled mb-0">
+                            <li class="pb-1">
+                                <a href="#!" class="text-white">Apply for Job</a>
+                            </li>
+                            <li class="pb-1">
+                                <a href="#!" class="text-white">Training Sessions</a>
+                            </li>
+                            <li class="pb-1">
+                                <a href="#!" class="text-white">Projects</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-md-6 mt-5 mb-5">
+                        <img class="pb-4 img-fluid" src="/img/NEW-LOGO-FINAL-1.png" alt="">
+                    </div>
+                </div>
+            </section>
+        </div>
+        <!-- copy -->
+        <div class="row  text-center">
+            <div class="col-lg-4 mt-2 mb-2">
+                <p style="font-weight: bold;">Copyright © 2023 TISE, All rights reserved.</p>
+            </div>
+            <div class="col-lg-4  d-flex mt-2 ">
+                <p class="m-2">Razorpay Quick Links:</p>
+                <a class="m-2" style="color: white; " href=""> Privacy Policy </a>
+                <a class="m-2" style="color: white;" href=""> T&C </a>
+                <a class="m-2" style="color: white;" href=""> Shipping </a>
+                <a class=" m-2" style="color: white;" href=""> Refund </a>
+            </div>
+            <div class="col-lg-4 mt-2 mb-2">
+                <p style="font-weight: bold;">Powered by TISE</p>
+
+            </div>
+        </div>
+    </footer>
+    <!-- clone -->
+
+    <script src="script.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            const formContainer = $("#form-container");
+            const addFieldButton = $("#add-field-button");
+
+            addFieldButton.click(function () {
+                const clonedFields = formContainer.find(".form-fields:last").clone(true);
+                clonedFields.find(".remove-field-button").show(); // Show the Remove button
+                formContainer.append(clonedFields);
+            });
+
+            formContainer.on("click", ".remove-field-button", function () {
+                $(this).closest(".form-fields").remove(); // Remove the associated form fields
+            });
+        });
+    </script>
+    <!-- preview image -->
+
+    <script>
+        function handleImagePreview(inputElement, previewElement) {
+            inputElement.addEventListener('change', function (event) {
+                var image = previewElement;
+                image.src = URL.createObjectURL(event.target.files[0]);
+                image.style.display = 'block';
+            });
+        }
+
+        handleImagePreview(document.getElementById('image'), document.getElementById('imagePreview'));
+        handleImagePreview(document.getElementById('fatherimage'), document.getElementById('fatherimagePreview'));
+        handleImagePreview(document.getElementById('motherimage'), document.getElementById('motherimagePreview'));
+        handleImagePreview(document.getElementById('spouseimage'), document.getElementById('spouseimagePreview'));
+        handleImagePreview(document.getElementById('siblingsimage'), document.getElementById('siblingsimagePreview'));
+
+
+    </script>
+
+    <!-- marriage  -->
+    <script>
+        function showInputs() {
+            document.getElementById("marriedInputs").style.display = "block";
+            document.getElementById("singleInputs").style.display = "none";
+        }
+
+        function hideInputs() {
+            document.getElementById("marriedInputs").style.display = "none";
+            document.getElementById("singleInputs").style.display = "block";
+        }
+    </script>
+
+    <!-- age  -->
+    <script>
+        function calculateAge() {
+            const dobInput = document.getElementById("dob").value;
+
+            if (!dobInput) {
+                document.getElementById("ageOutput").value = "";
+                return;
+            }
+
+            const dob = new Date(dobInput);
+            const currentDate = new Date();
+
+            if (dob >= currentDate) {
+                alert("Please enter a valid date of birth.");
+                document.getElementById("ageOutput").value = "";
+                return;
+            }
+            const ageInMilliseconds = currentDate - dob;
+            const ageInYears = Math.floor(ageInMilliseconds / (1000 * 60 * 60 * 24 * 365));
+
+            document.getElementById("ageOutput").value = ageInYears;
+        }
+    </script>
+    <!-- address  Siblings two in one yes or no -->
+    <script>
+        function setupRadioListener(yesRadio, noRadio, formContainer) {
+            yesRadio.addEventListener("change", () => {
+                formContainer.classList.remove("hidden");
+            });
+
+            noRadio.addEventListener("change", () => {
+                formContainer.classList.add("hidden");
+            });
+        }
+
+        const yesRadio1 = document.getElementById("yesRadio1");
+        const noRadio1 = document.getElementById("noRadio1");
+        const formContainer1 = document.getElementById("formContainer1");
+        setupRadioListener(yesRadio1, noRadio1, formContainer1);
+
+        const yesRadio2 = document.getElementById("yesRadio2");
+        const noRadio2 = document.getElementById("noRadio2");
+        const formContainer2 = document.getElementById("formContainer2");
+        setupRadioListener(yesRadio2, noRadio2, formContainer2);
+    </script>
+
+    <!-- bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <!-- MDB -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js"></script>
+
+</body>
+
+</html>

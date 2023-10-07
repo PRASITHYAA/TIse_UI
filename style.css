@@ -1,0 +1,80 @@
+.red {
+    color: red;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.bg {
+    background-color: rgba(248, 235, 235, 0.726)
+}
+
+.careers-back-img {
+    /* background-image: url('{{ asset('img/WhatsApp Image 2023-09-05 at 2.53.01 PM') }}'); */
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.btn-nav {
+    background-color: #1e3060;
+    color: white;
+    border: none;
+}
+
+.btn-nav:hover {
+    background-color: white;
+    color: black;
+}
+
+.nav-bg {
+    background-color: #bf9855;
+    color: black;
+}
+
+.careers-back-img {
+    background-image: url(./img/live\ back.jpeg);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.select-back-colour {
+    background-color: rgba(248, 235, 235, 0.726);
+}
+
+.span-star {
+    color: red;
+}
+
+.hai {
+    display: inline-block;
+
+    /* "to left" / "to right" - affects initial color */
+    background: linear-gradient(to left, white 50%, #1e3060 50%) right;
+    background-size: 200%;
+    transition: .5s ease-out;
+}
+
+.hai:hover {
+    background-position: left;
+    color: white;
+}
+
+.hidden {
+    display: none;
+}
+
+.btn-right {
+    float: right;
+}
+.careers-back-img {
+    background-image: url(/img/live\ back.jpeg);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
